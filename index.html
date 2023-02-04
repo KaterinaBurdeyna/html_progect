@@ -1,34 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>Інвентаризація нерухомого майна</title>
+    <link rel="shortcut icon" href="img/web_icon.jpg" type="image/x-icon">
 </head>
-<body>
-    <header>
-        <h1>Hello! My name is Ketty!</h1>
-        <h2>My hobby is <em>grape</em>!</h2>
-            <figure>
-            <img src="img/be23123f.jpg" alt="Title_Grape">
-            <figcaption>All my family <em>love</em> grape!</figcaption>  
-            </figure>
 
-            <h2>What are we doing with GPAPE:</h2>
-            <ul>
-              <li>grow grapes</li>
-              <li>eat grapes</li>
-              <li>DRINK grapes</li>
-              <li>and do love gpapes</li>
-            </ul>
+<body>
+    <header class="header">
+        <div class="header__contacts">
+            <p class="header__phone">Тел.:(096) 206 83 43</p>
+            <a class="header__email" href="mailto:cburdeynyy1@gmail.com">cburdeynyy1@gmail.com</a>
+            <p class="header__hours">Працюємо з 9 до 17 без вихідних!</p>
+        </div>
+        <nav class="header__nav">
+            <a href="#" class="header__logo-container">
+                <img class="header__logo" width="252" src="img/invent_logo.jpg" alt="invent_logo">
+            </a>
+            <div class="header__menu">
+                <a href="about" class="header__menu-item">Про нас</a>
+                <a href="menu" class="header__menu-item">Послуги</a>
+                <a href="process" class="header__menu-item">Процес</a>
+                <a href="price" class="header__menu-item">Вартість</a>
+                <a href="contacts" class="header__menu-item">Контакти</a>
+            </div>
+        </nav>
+        <div class="header__banner">
+            <h1 class="header__title">Інвентаризація нерухомого майна</h1>
+            <p class="header__slogan">Ти будуєш - Ми оформляємо!</p>
+            <p class="header__text">інвентаризація об'єктів нерухомості будь-якої складності!</p>
+        </div>
     </header>
     <main>
-
+        <section>
+        <h4 class="contact__form"> Заповніть форму зворотного звязку</h4>
+            <div class="contact__form">
+                <form action="https://formspree.io/f/mdovarpy" method="post" class="contacts__form">
+                    <input type="text" name="full_name" placeholder="Ваше повне ім'я*" required>
+                    <input type="number" name="number" placeholder="Ваш номер телефону*" required>
+                    <input type="email" name="email" placeholder="Ваша електронна пошта">
+                    <textarea name="message" cols="30" rows="10"
+                        placeholder="Введіть Ваше повідомлення. (Вкажіть адресу розташування об'єкту нерухомості)"></textarea>
+                    <input type="submit" value="Надіслати повідомлення">
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
-        <h1>Do you love GRAPE?</h1>
+
     </footer>
 </body>
+
 </html>
