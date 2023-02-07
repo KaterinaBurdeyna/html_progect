@@ -21,11 +21,11 @@
                 <img class="header__logo" width="252" src="img/invent_logo.jpg" alt="invent_logo">
             </a>
             <div class="header__menu">
-                <a href="about" class="header__menu-item">Про нас</a>
-                <a href="menu" class="header__menu-item">Послуги</a>
-                <a href="process" class="header__menu-item">Процес</a>
-                <a href="price" class="header__menu-item">Вартість</a>
-                <a href="contacts" class="header__menu-item">Контакти</a>
+                <a href="#about" class="header__menu-item">Про нас</a>
+                <a href="#menu" class="header__menu-item">Послуги</a>
+                <a href="#process" class="header__menu-item">Процес</a>
+                <a href="#price" class="header__menu-item">Вартість</a>
+                <a href="#contacts" class="header__menu-item">Контакти</a>
             </div>
         </nav>
         <div class="header__banner">
@@ -35,19 +35,101 @@
         </div>
     </header>
     <main>
-        <section>
-        <h4 class="contact__form"> Заповніть форму зворотного звязку</h4>
-            <div class="contact__form">
-                <form action="https://formspree.io/f/mdovarpy" method="post" class="contacts__form">
-                    <input type="text" name="full_name" placeholder="Ваше повне ім'я*" required>
-                    <input type="number" name="number" placeholder="Ваш номер телефону*" required>
-                    <input type="email" name="email" placeholder="Ваша електронна пошта">
-                    <textarea name="message" cols="30" rows="10"
-                        placeholder="Введіть Ваше повідомлення. (Вкажіть адресу розташування об'єкту нерухомості)"></textarea>
-                    <input type="submit" value="Надіслати повідомлення">
-                </form>
+
+            <div class="main__menu" id="about">
+                <h2 class="main__menu-item">Про нас</h2>
+                <span class="dot">....</span>
+                <img src="img/about.png" alt="left about us" width="300">
+                <p class="main__inform">Великий довсід роботи більше 20 років дозволяє називати себе справжніми
+                    професіоналами своєї справи.
+                    В нашій команді працюють інженри та юристи.
+                    Інженерський склад починав свій професійний шлях з роботи в Бюро технічної інвентаризації, тож
+                    якісно проведе обстеження та заміри будівелть будь-якої складності від квартити до заводу.
+                    Юристи-реєстратори нададуть консультацію з будь якого питання стосовно реєстрації та оформлення
+                    новобудов, самочинного будівництва, капітальних та поточних ремонтів.
+                </p>
             </div>
-        </section>
+            <div class="main__menu" id="menu">
+                <h2 class="main__menu-item">Послуги</h2>
+                <span class="dot">....</span>
+                <img src="img/left-menu.png" alt="left menu" width="300">
+                
+                    <ul class="main__inform">
+                        <li>Технічна інвентаризація будівель та споруд</li>
+                        <li>Виготовлення технічних паспортів на нерухоме майно</li>
+                        <li>Реєстрація технічних поспортів в Єдиній Державній Електронній Системі (ЄДЕССБ)</li>
+                        <li>Допомога з узаконенням новобудов та реконструцованих приміщень</li>
+                        <li>Реєстрація технічних поспортів в Єдиній Державній Електронній Системі (ЄДЕССБ)</li>
+                        <li>За необхідності можливе консультування з супутніх питань</li>
+                    </ul>
+
+            </div>
+
+            <div class="main__menu" id="process">
+                <h2 class="main__menu-item">Процес</h2>
+                <span class="dot">....</span>
+                <img src="img/left_process.jpg" alt="left process" width="300">
+
+                    <ul class="main__inform">
+                        <li>Збір документації та інформації про об'єкт замовлення</li>
+                        <li>Підписання договору на виконання робіт</li>
+                        <li>Вихід на об'єкт та проведення інвентаризації. Провеження замірів та формування ескізу</li>
+                        <li>Виготовлення технічної документації</li>
+                        <li>Реєстрація технічних поспортів в Єдиній Державній Електронній Системі (ЄДЕССБ)</li>
+                        <li>За необхідності можлив консультування з супутніх питань</li>
+                    </ul>
+
+            </div>
+
+            <div class="main__menu" id="price">
+                <h2 class="main__menu-item">Ціна</h2>
+                <span class="dot">....</span>
+                <img src="img/left_price.jpg" alt="left prsce" width="300">
+                
+                <p class="main__inform">Вартість роботи зазвичай залежить від обсягів та складності роботи, площ об'єктів та термінів виготовлення замовлення.
+                    Кожне замовлення вимагає індивідуального підходу та залежить від калькуляції.                    
+                    Наша цінова політика дуже гнучка та дозволяє досягти розумних рішень в кожному окремому випадку.
+                </p>
+            </div>
+
+            <div class="main__menu" id="contacts">
+                <h2 class="main__menu-item">Контакти</h2>
+                <span class="dot">....</span>
+                <img src="img/contacts.png" alt="left prsce" width="300">
+                <div>
+                    <div class="contacts__address">
+                        <h3 class="contacts__subtitle">Наша адреса</h3>
+                        <p class="contacts__content">м. Тульчин, Вінницька обл. Україна</p>
+                    </div>
+                    <div class="contacts__workinghours">
+                        <h3 class="contacts__subtitle">Робочі години</h3>
+                        <p class="contacts__content">Працюємо з 9 до 17 без вихідних!</p>
+ 
+                    </div>
+                    <div class="contacts__info">
+                        <h3 class="contacts__subtitle">Contact</h3>
+                        <div class="contacts__content">
+                            <p class="contacts__phone">Тел.:(096) 206 83 43</p>
+                            <a class="contacts__email" href="mailto:cburdeynyy1@gmail.com">cburdeynyy1@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <h4 class="contact__form"> Заповніть форму і ми до Вас зателефонуємо</h4>
+                <div class="contact__form">
+                    <form action="https://formspree.io/f/mdovarpy" method="post" class="contacts__form">
+                        <input type="text" name="full_name" placeholder="Ваше повне ім'я*" required>
+                        <input type="number" name="number" placeholder="Ваш номер телефону*" required>
+                        <input type="email" name="email" placeholder="Ваша електронна пошта">
+                        <textarea name="message" cols="30" rows="10"
+                            placeholder="Введіть Ваше повідомлення. (Вкажіть адресу розташування об'єкту нерухомості)"></textarea>
+                        <input type="submit" value="Надіслати повідомлення">
+                    </form>
+                </div>
+            </section>
+
     </main>
     <footer>
 
